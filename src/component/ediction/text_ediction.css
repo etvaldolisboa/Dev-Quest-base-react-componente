@@ -1,0 +1,11 @@
+.text {
+    font-size: 2rem;
+    /* color: #6429c3; */
+    /* text-transform: uppercase; */
+}
+
+.text::first-line {
+    /* font-size: 50px; */
+    /* font-weight: bold; */
+    color: #d15b5b;
+}

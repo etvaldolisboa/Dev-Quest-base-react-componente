@@ -1,22 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import TextEdiction from './component/ediction/text_ediction.js';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <TextEdiction>
+          esse eh um texto exemplo para ser renderizado apenas a primeira linha em vermelho e restante do texto em roxo claro.
+        </TextEdiction>
       </header>
     </div>
   );
